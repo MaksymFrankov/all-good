@@ -7,9 +7,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./img/mountain-night.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* .btn {
+  padding: 30px 100px;
+  border-radius: 30%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+button {
+  cursor: pointer;
+  color: #2791fc;
+  padding: 30px 100px;
+    border-radius: 5%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  outline: 0;
+  font-size: 1em;
+  font-weight: 600;
+  background: #fff;
+  border: none;
+  padding: 2em 4em;
+  transition: all .3s ease-out;
+  box-shadow: inset 0 -8px 0 0 rgba(0, 0, 0, .2),
+    1px 1px 0 0 #207cd9,
+    2px 2px 0 0 #207cd9,
+    3px 3px 0 0 #207cd9,
+    4px 4px 0 0 #207cd9,
+    5px 5px 0 0 #207cd9,
+    6px 6px 0 0 #207cd9,
+    7px 7px 0 0 #207cd9,
+    8px 8px 0 0 #207cd9,
+    9px 9px 0 0 #207cd9,
+    10px 10px 0 0 #207cd9,
+    11px 11px 0 0 #207cd9,
+    12px 12px 0 0 #207cd9;
+}
+
+button:hover {
+  color: rgb(25, 93, 218);
+}
+
+button:active {
+  color: rgb(41, 110, 238);
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, .2),
+    1px 1px 0 0 #207cd9,
+    2px 2px 0 0 #207cd9,
+    3px 3px 0 0 #207cd9,
+    4px 4px 0 0 #207cd9,
+    5px 5px 0 0 #207cd9;
+}
+.text {
+  
+  color: white;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url(./img/mountain-day.jpg);
+    background-repeat: no-repeat;
+    padding:  50vh 48vw;
+   }
+.hidden {
+  display: none;
 }
